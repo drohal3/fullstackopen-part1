@@ -67,3 +67,22 @@ WARNING create-react-app automatically makes the project a git repository unless
 
 **Solution:** 
 The solution is demonstrated in the courseinfo application (courseinfo folder).
+
+## Exercise 1.2: course information, step2
+**Task:**
+Refactor the Content component so that it does not render any names of parts or their number of exercises by itself. Instead it only renders three Part components of which each renders the name and number of exercises of one part.
+```
+const Content = ... {
+return (
+<div>
+<Part .../>
+<Part .../>
+<Part .../>
+</div>
+)
+}
+```
+Our application passes on information in quite a primitive way at the moment, since it is based on individual variables. This situation will improve soon.
+
+**Solution:**
+The solution is demonstrated in the courseinfo application (courseinfo folder).

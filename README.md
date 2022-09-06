@@ -66,7 +66,7 @@ return (
 WARNING create-react-app automatically makes the project a git repository unless the application is created within an already existing repository. Most likely you do not want the project to become a repository, so run the command rm -rf .git in the root of the project.
 
 **Solution:** 
-The solution is demonstrated in the courseinfo application (courseinfo folder).
+The solution is demonstrated in the courseinfo application (courseinfo folder). See commits for more details.
 
 ## Exercise 1.2: course information, step2
 **Task:**
@@ -85,4 +85,33 @@ return (
 Our application passes on information in quite a primitive way at the moment, since it is based on individual variables. This situation will improve soon.
 
 **Solution:**
-The solution is demonstrated in the courseinfo application (courseinfo folder).
+The solution is demonstrated in the courseinfo application (courseinfo folder). See commits for more details.
+
+## Exercise 1.3: course information step3
+**Task:**
+Let's move forward to using objects in our application. Modify the variable definitions of the App component as follows and also refactor the application so that it still works:
+```
+const App = () => {
+const course = 'Half Stack application development'
+const part1 = {
+name: 'Fundamentals of React',
+exercises: 10
+}
+const part2 = {
+name: 'Using props to pass data',
+exercises: 7
+}
+const part3 = {
+name: 'State of a component',
+exercises: 14
+}
+
+return (
+<div>
+...
+</div>
+)
+}
+```
+**Solution:**
+The solution is demonstrated in the courseinfo application (courseinfo folder). See commits for more details.

@@ -271,3 +271,10 @@ return (
 ```
 **Solution:**
 The solution is demonstrated in the unicafe application (unicafe folder). See commits for more details.
+
+## 1.9: unicafe step4
+**Task:**
+Change your application to display statistics only once feedback has been gathered.
+**Solution:**
+The solution is demonstrated in the unicafe application (unicafe folder). See commits for more details.
+

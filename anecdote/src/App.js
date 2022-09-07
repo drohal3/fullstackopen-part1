@@ -20,17 +20,27 @@ const App = () => {
   ]
 
   const [selected, setSelected] = useState(0)
+  const [votes, setVotes] = useState([])
 
   const handleNextAnecdoteClick = () => {
     setSelected(Math.floor(Math.random() * anecdotes.length))
   }
 
+  const handleVote = () => {
+    const votesCopy = [...votes]
+    votesCopy[selected] = (selected in votesCopy && votesCopy[selected] !== undefined) ? votesCopy[selected] + 1 : 1
+    console.log("votes", votesCopy)
+    setVotes(votesCopy)
+  }
+
   return (
       <>
         <div>
-          {anecdotes[selected]}
+            <p>{anecdotes[selected]}</p>
+            <p>has {(selected in votes && votes[selected] !== undefined) ? votes[selected] : 0} votes</p>
         </div>
         <div>
+          <Button name="vote" clickAction={handleVote}/>
           <Button name="next anecdote" clickAction={handleNextAnecdoteClick}/>
         </div>
       </>

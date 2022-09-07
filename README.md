@@ -234,3 +234,11 @@ export default App
 ```
 **Solution:**
 The solution is demonstrated in the unicafe application (unicafe folder). See commits for more details.
+
+## 1.7: unicafe step2
+**Task:**
+Expand your application so that it shows more statistics about the gathered feedback: 
+the total number of collected feedback, the average score (good: 1, neutral: 0, bad: -1) 
+and the percentage of positive feedback.
+**Solution:**
+The solution is demonstrated in the unicafe application (unicafe folder). See commits for more details.

@@ -301,3 +301,9 @@ return(
 The application's state should still be kept in the root App component.<br/>
 **Solution:**
 The solution is demonstrated in the unicafe application (unicafe folder). See commits for more details.
+
+## 1.11*: unicafe step6
+**Task:**
+Display the statistics in an HTML table<br/>
+**Solution:**
+The solution is demonstrated in the unicafe application (unicafe folder). See commits for more details.

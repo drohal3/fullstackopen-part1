@@ -367,3 +367,4 @@ copy[2] += 1
 ```  
 Using an array might be the simpler choice in this case. Searching the Internet will provide you with lots of hints on how to create a zero-filled array of a desired length.<br/>
 **Solution:**
+The solution is demonstrated in the anecdote application (anecdote folder). See commits for more details.

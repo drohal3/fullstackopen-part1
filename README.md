@@ -232,3 +232,5 @@ code here
 
 export default App
 ```
+**Solution:**
+The solution is demonstrated in the unicafe application (unicafe folder). See commits for more details.

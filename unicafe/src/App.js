@@ -21,8 +21,8 @@ const App = () => {
           <Button text = "bad" handleClick={() => setBad(bad + 1)}/>
           <h1>Statistics</h1>
           <p>good: {good}</p>
-          <p>good: {neutral}</p>
-          <p>good: {bad}</p>
+          <p>neutral: {neutral}</p>
+          <p>bad: {bad}</p>
       </div>
   )
 }
